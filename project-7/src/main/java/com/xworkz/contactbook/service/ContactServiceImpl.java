@@ -3,12 +3,14 @@ package com.xworkz.contactbook.service;
 import com.xworkz.contactbook.dao.ContactDao;
 import com.xworkz.contactbook.dao.ContactDaoImpl;
 import com.xworkz.contactbook.dto.ContactDto;
+import com.xworkz.contactbook.dto.UserDto;
 
 import java.util.List;
 
 public class ContactServiceImpl implements ContactService{
 
     ContactDao contactDao = new ContactDaoImpl();
+
     public boolean validateContact(ContactDto contactDto) {
         boolean isContactValidated = false;
         boolean isNameValidated = false;

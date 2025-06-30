@@ -2,7 +2,6 @@ package com.xworkz.contactbook.dto;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 @Getter

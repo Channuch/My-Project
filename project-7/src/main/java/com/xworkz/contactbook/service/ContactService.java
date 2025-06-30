@@ -1,6 +1,7 @@
 package com.xworkz.contactbook.service;
 
 import com.xworkz.contactbook.dto.ContactDto;
+import com.xworkz.contactbook.dto.UserDto;
 
 import java.util.List;
 

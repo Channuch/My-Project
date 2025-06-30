@@ -10,7 +10,14 @@ pageEncoding="US-ASCII"%>
     body {
           margin: 0;
           font-family: 'Arial', sans-serif;
+
         }
+    .header{
+        display: flex;
+        padding: 5px;
+        background: white;
+
+    }
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
@@ -30,6 +37,7 @@ pageEncoding="US-ASCII"%>
 </head>
 <body>
 
+  <div class="header">
   <div>
   <form action ="getUser">
    <input type ="text" placeholder ="Search By Id" name = "id">
@@ -37,11 +45,12 @@ pageEncoding="US-ASCII"%>
   </form>
   </div>
   <div>
-    <form action ="getcontact">
+    <form action ="getcontact" >
      <input type ="text" placeholder ="Search By Name" name = "name">
     <button type= "submit" value = "search">Search</button>
     </form>
     </div>
+     </div>
   <div>
    <table >
      <tr>

@@ -38,6 +38,7 @@ public class ContactServlet extends HttpServlet {
         contactDto.setAddress(address);
 
         ContactService contactService = new ContactServiceImpl();
+
         contactService.validateContact(contactDto);
 
         req.setAttribute("name",name);

@@ -2,6 +2,7 @@ package com.xworkz.contactbook.dao;
 
 
 import com.xworkz.contactbook.dto.ContactDto;
+import com.xworkz.contactbook.dto.UserDto;
 import com.xworkz.contactbook.util.EntityManagerFactoryUtil;
 
 import javax.persistence.EntityManager;
@@ -10,6 +11,7 @@ import javax.persistence.Query;
 import java.util.List;
 
 public class ContactDaoImpl implements ContactDao{
+
     public boolean addContact(ContactDto contactDto) {
         EntityManagerFactory entityManagerFactory = EntityManagerFactoryUtil.getEntityManagerFactory();
         EntityManager entityManager = entityManagerFactory.createEntityManager();

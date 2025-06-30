@@ -1,10 +1,13 @@
 package com.xworkz.contactbook.dao;
 
 import com.xworkz.contactbook.dto.ContactDto;
+import com.xworkz.contactbook.dto.UserDto;
 
 import java.util.List;
 
 public interface ContactDao {
+
+
 
     boolean addContact(ContactDto contactDto);
 
